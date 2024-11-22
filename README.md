@@ -16,13 +16,13 @@ Ce script batch Windows permet de convertir des fichiers `.cue` et `.gdi` en fic
 
 ## Utilisation
 
-1. Téléchargez le script `convert_to_chd.bat`.
+1. Téléchargez le script `convert to chd.bat`.
 2. Placez-le dans un dossier accessible.
 3. Exécutez le script :
-   - Double-cliquez sur le fichier `convert_to_chd.bat` **ou**
+   - Double-cliquez sur le fichier `convert to chd.bat` **ou**
    - Ouvrez un terminal, naviguez jusqu'au dossier contenant le script et exécutez :
      ```cmd
-     convert_to_chd.bat
+     convert to chd.bat
      ```
 4. Saisissez le chemin du répertoire contenant vos fichiers `.cue` et `.gdi`.
 
