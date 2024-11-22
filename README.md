@@ -1,30 +1,33 @@
-# Convert-to-CHD
+# Convertisseur de fichiers `.cue` et `.gdi` en `.chd`
 
-Présentation du script
-Ce script est un fichier batch Windows (.bat) permettant de convertir des fichiers .cue et .gdi en fichiers .chd dans un répertoire spécifié par l'utilisateur. Il utilise l'outil chdman pour effectuer la conversion.
+Ce script batch Windows permet de convertir des fichiers `.cue` et `.gdi` en fichiers `.chd` de manière automatique, tout en recherchant récursivement dans un répertoire et ses sous-dossiers.
 
+## Fonctionnalités
 
-## Fonctionnalités principales
+- **Conversion en masse** : Convertit tous les fichiers `.cue` et `.gdi` trouvés dans un répertoire donné.
+- **Gestion des doublons** : Ignore les fichiers déjà convertis.
+- **Rapports** : Affiche les erreurs ou succès pour chaque fichier traité.
 
+## Prérequis
 
-### Recherche récursive :
+1. **chdman** : Téléchargez et installez l'outil `chdman` (inclus avec les outils de MAME). Assurez-vous qu'il est accessible depuis la ligne de commande (soit en l'ajoutant au `PATH`, soit en le plaçant dans le même dossier que le script).
+   - [Télécharger chdman](https://www.mamedev.org/release.html)
+2. Windows avec un terminal compatible pour exécuter des scripts `.bat`.
 
-Le script parcourt tous les sous-dossiers du répertoire spécifié à la recherche de fichiers .cue et .gdi.
+## Utilisation
 
-### Conversion automatique :
+1. Téléchargez le script `convert_to_chd.bat`.
+2. Placez-le dans un dossier accessible.
+3. Exécutez le script :
+   - Double-cliquez sur le fichier `convert_to_chd.bat` **ou**
+   - Ouvrez un terminal, naviguez jusqu'au dossier contenant le script et exécutez :
+     ```cmd
+     convert_to_chd.bat
+     ```
+4. Saisissez le chemin du répertoire contenant vos fichiers `.cue` et `.gdi`.
 
-Les fichiers trouvés sont convertis en .chd (un format compressé pour les images de disques).
+## Exemple
 
-### Ignorer les doublons :
+### Étapes typiques :
 
-Si un fichier .chd correspondant existe déjà, le fichier source est ignoré.
-
-### Gestion des erreurs :
-
-Le script vérifie le succès ou l'échec de chaque conversion et informe l'utilisateur.
-
-
-## Prérequis :
-
-L'outil chdman doit être installé et accessible depuis la ligne de commande (ajouté au PATH ou dans le même répertoire que le script).
-Un environnement Windows avec support des scripts batch.
+1. Vous avez un dossier contenant les fichiers `.cue` et `.gdi` :  
