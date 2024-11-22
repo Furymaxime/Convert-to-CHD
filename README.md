@@ -31,3 +31,15 @@ Ce script batch Windows permet de convertir des fichiers `.cue` et `.gdi` en fic
 ### Étapes typiques :
 
 1. Vous avez un dossier contenant les fichiers `.cue` et `.gdi` :  
+
+
+
+## Remarques
+
+- Le script ignore les fichiers déjà convertis (présence de `.chd`).
+- En cas d'erreur (ex : fichier corrompu ou problème de configuration), l'erreur sera affichée dans le terminal.
+- `chdman` est obligatoire pour ce script.
+
+## Licence
+
+Ce script est fourni "tel quel", sans garantie. Vous pouvez l'utiliser, le modifier et le partager librement.
