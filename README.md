@@ -43,3 +43,5 @@ Ce script batch Windows permet de convertir des fichiers `.cue` et `.gdi` en fic
 ## Licence
 
 Ce script est fourni "tel quel", sans garantie. Vous pouvez l'utiliser, le modifier et le partager librement.
+
+Le script utilise Chdman développé par MAME
